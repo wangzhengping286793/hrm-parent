@@ -26,7 +26,7 @@
       <module name="hrm-system-interface" target="1.5" />
       <module name="hrm-system-parent" target="1.5" />
       <module name="hrm-system-service" target="1.7" />
-      <module name="hrm-zuul-gateway" target="1.5" />
+      <module name="hrm-zuul-gateway" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
