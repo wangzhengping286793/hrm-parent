@@ -12,6 +12,7 @@
         <module>hrm-basic-parent</module>
         <module>hrm-supports-parent</module>
         <module>hrm-system-parent</module>
+        <module>hrm-course-parent</module>
     </modules>
     <properties>
         <spring.boot.version>2.0.5.RELEASE</spring.boot.version>
@@ -32,6 +33,11 @@
                 <version>${spring.cloud.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>8.0.18</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

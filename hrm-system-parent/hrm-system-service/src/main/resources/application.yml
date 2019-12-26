@@ -1,5 +1,6 @@
 server:
   port: 9001
+
 eureka:
   client:
     serviceUrl:
@@ -12,27 +13,9 @@ spring:
     name: SYSTEM-SERVICE
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
-    driver-class-name:  com.mysql.cj.jdbc.Driver
     url:  jdbc:mysql:///hrm-system?serverTimezone=UTC&useSSL=false&useUnicode=true&characterEncoding=utf8
-    username: root
-    password: root
-    druid:
-      initial-size: 5
-      min-idle: 5
-      max-active: 20
-      max-wait: 60000
-      timeBetweenEvictionRunsMillis:  60000
-      stat-view-servlet:
-        url-pattern:  "/druid/*"
-        allow: 127.0.0.1
-        reset-enable: false
-        login-username: root
-        login-password: root
 
-mybatis-plus:
-  mapper-locations: classpath*:cn/itsource/hrm/mapper/*Mapper.xml
-  type-aliases-package: cn.itsource.hrm.domain,cn.itsource.hrm.query
-
-logging:
-  level:
-    cn.itsource.hrm:  debug
+hrm:
+  swgger:
+    title:  系统管理服务
+    description:  系统管理服务接口文档

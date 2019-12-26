@@ -1,4 +1,4 @@
-package cn.itsource.hrm.config;
+package cn.itsource.hrm;
 
 
 import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
@@ -6,10 +6,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class MybatisPlusConfig {
+public class MybatisPlusPageAutoConfig {
+
     @Bean
     public PaginationInterceptor paginationInterceptor(){
-        PaginationInterceptor paginationInterceptor = new PaginationInterceptor();
-        return paginationInterceptor;
+        return new PaginationInterceptor();
     }
 }

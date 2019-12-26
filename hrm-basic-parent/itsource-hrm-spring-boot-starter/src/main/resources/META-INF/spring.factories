@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+cn.itsource.hrm.Swagger2AutoConfiguration,\
+cn.itsource.hrm.MybatisPlusPageAutoConfig
