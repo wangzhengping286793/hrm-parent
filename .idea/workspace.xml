@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="762b385f-9300-495d-8b3f-f79e5f243023" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/src/main/java/cn/itsource/hrm/MybatisPlusPageAutoConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/src/main/java/cn/itsource/hrm/Swagger2AutoConfiguration.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/src/main/java/cn/itsource/hrm/SwaggerProperties.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/src/main/resources/META-INF/spring.factories" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/src/main/resources/config/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-course-parent/hrm-course-interface/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-course-parent/hrm-course-parent.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-course-parent/hrm-course-service/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-course-parent/hrm-course-service/src/main/java/cn/itsource/hrm/CourseServiceApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-course-parent/hrm-course-service/src/main/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/hrm-course-parent/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/itsource-hrm-spring-boot-starter.iml" afterPath="$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/itsource-hrm-spring-boot-starter.iml" />
-      <change beforePath="$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/pom.xml" afterPath="$PROJECT_DIR$/hrm-basic-parent/itsource-hrm-spring-boot-starter/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/hrm-system-service.iml" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/hrm-system-service.iml" />
-      <change beforePath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/pom.xml" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/SystemServiceApplication.java" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/SystemServiceApplication.java" />
-      <change beforePath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/config/MybatisPlusConfig.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/java/cn/itsource/hrm/config/Swagger2.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/hrm-system-parent/hrm-system-service/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -575,7 +553,7 @@
       <workItem from="1577235790728" duration="7173000" />
       <workItem from="1577277587938" duration="1490000" />
       <workItem from="1577323136592" duration="5756000" />
-      <workItem from="1577330470319" duration="10661000" />
+      <workItem from="1577330470319" duration="10743000" />
     </task>
     <task id="LOCAL-00001" summary="ww">
       <created>1577330608337</created>
@@ -598,11 +576,18 @@
       <option name="project" value="LOCAL" />
       <updated>1577333107308</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ww">
+      <created>1577346964353</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577346964353</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41880000" />
+    <option name="totallyTimeSpent" value="41962000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
