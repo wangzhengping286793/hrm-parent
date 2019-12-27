@@ -1,14 +1,17 @@
 package cn.itsource.hrm.web.controller;
 
+import cn.itsource.hrm.mapper.CourseTypeMapper;
 import cn.itsource.hrm.service.ICourseTypeService;
 import cn.itsource.hrm.domain.CourseType;
 import cn.itsource.hrm.query.CourseTypeQuery;
 import cn.itsource.basic.util.AjaxResult;
 import cn.itsource.basic.util.PageList;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -66,7 +69,6 @@ public class CourseTypeController {
     */
     @RequestMapping(value = "/list",method = RequestMethod.GET)
     public List<CourseType> list(){
-
         return courseTypeService.list(null);
     }
 
@@ -82,5 +84,11 @@ public class CourseTypeController {
     {
         Page<CourseType> page = courseTypeService.page(new Page<CourseType>(query.getPage(), query.getRows()));
         return new PageList<>(page.getTotal(),page.getRecords());
+    }
+
+    @RequestMapping(value = "/treeData",method = RequestMethod.GET)
+    public List<CourseType> treeData(){
+        List<CourseType> treeData = courseTypeService.loadTreeDataLoop();
+        return treeData;
     }
 }
