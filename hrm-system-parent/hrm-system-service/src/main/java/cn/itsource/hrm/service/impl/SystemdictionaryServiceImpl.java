@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
  * </p>
  *
  * @author solargen
- * @since 2019-12-24
+ * @since 2019-12-30
  */
 @Service
 public class SystemdictionaryServiceImpl extends ServiceImpl<SystemdictionaryMapper, Systemdictionary> implements ISystemdictionaryService {

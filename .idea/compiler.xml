@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hrm-basic-generator" />
         <module name="hrm-basic-util" />
+        <module name="hrm-common-redis-interface" />
+        <module name="hrm-common-redis-service" />
         <module name="hrm-config-server" />
         <module name="hrm-course-interface" />
         <module name="hrm-course-service" />
@@ -22,6 +24,9 @@
       <module name="hrm-basic-generator" target="1.7" />
       <module name="hrm-basic-parent" target="1.5" />
       <module name="hrm-basic-util" target="1.7" />
+      <module name="hrm-common-parent" target="1.5" />
+      <module name="hrm-common-redis-interface" target="1.5" />
+      <module name="hrm-common-redis-service" target="1.7" />
       <module name="hrm-config-server" target="1.5" />
       <module name="hrm-cource-parent" target="1.5" />
       <module name="hrm-course-interface" target="1.5" />

@@ -9,7 +9,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * </p>
  *
  * @author solargen
- * @since 2019-12-24
+ * @since 2019-12-30
  */
 public interface ISystemdictionaryitemService extends IService<Systemdictionaryitem> {
 

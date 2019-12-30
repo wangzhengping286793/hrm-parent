@@ -15,7 +15,7 @@ import lombok.experimental.Accessors;
  * </p>
  *
  * @author solargen
- * @since 2019-12-24
+ * @since 2019-12-30
  */
 @Data
 @EqualsAndHashCode(callSuper = false)

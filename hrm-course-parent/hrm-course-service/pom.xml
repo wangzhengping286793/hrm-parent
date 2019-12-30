@@ -26,6 +26,16 @@
             <artifactId>hrm-course-interface</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>cn.itsource</groupId>
+            <artifactId>hrm-common-redis-interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.17</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
